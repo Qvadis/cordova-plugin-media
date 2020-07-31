@@ -428,7 +428,7 @@ public class AudioHandler extends CordovaPlugin {
                     pauseAllLostFocus();
                     break;
                 case (AudioManager.AUDIOFOCUS_GAIN):
-                    resumeAllGainedFocus();
+                    // resumeAllGainedFocus();
                     break;
                 default:
                     break;
